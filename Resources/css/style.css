@@ -5,9 +5,9 @@ font-family: 'Permanent Marker', cursive; */
 * {
   box-sizing: border-box;
 }
-body {
+body { 
   background-color: black;
-  color:rgb(233, 233, 233);
+  color: azure;
 }
 
 h3 {
@@ -18,6 +18,13 @@ h3 {
 p {
   font-family: 'Lateef', monospace;
   font-size: 1.5em;
+}
+
+.banner {
+  position: fixed;
+  bottom: 90%;
+  width: 100%;
+  background-color: black;
 }
 
 .banner h1 {
