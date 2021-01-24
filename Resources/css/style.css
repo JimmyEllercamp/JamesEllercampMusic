@@ -38,6 +38,7 @@ p {
   bottom: 90%;
   width: 100%;
   background-color: black;
+  z-index: 2;
 }
 
 .banner h1 {
@@ -97,11 +98,40 @@ footer, p {
 
 /* ------- B I O ------- */
 
-.bio-element img{
-  width: 50%;
-  padding-left: 40px;
+
+.bio-main {
+  position: relative;
+  margin-top: 300px;
 }
 
-.bio-element p {
-  width: 50%;
+.bio-main img {
+  width: 500px;
+  position: relative;
+  right: 380px;
+  bottom: 12em;
+}
+
+.bio-box-2 img {
+  border-radius: 50%;
+  position: relative;
+  left: 300px;
+  bottom: 425px;
+}
+
+.bio-main p {
+  width: 400px;
+  position: relative;
+  right: 175px;
+  bottom: 100px;
+  line-height: 1.5em;
+}
+
+.inline-display {
+  display: inline-block;
+}
+
+.bio-box-2 p {
+  position: relative;
+  left: 200px;
+  top: 80px;
 }
