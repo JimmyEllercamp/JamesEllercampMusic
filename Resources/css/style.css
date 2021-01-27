@@ -103,7 +103,7 @@ footer, p {
 .jimmy-guitar {
   border-radius: 50%;
   width: 35%;
-  margin-top: 10em;
+  margin-top: 12em;
   border: 6px solid azure;
 }
 
@@ -113,11 +113,15 @@ footer, p {
 
 .bio {
   width: 100%;
-  margin-top: 8em;
+  margin-top: 9em;
+  
 }
 
 .bio p {
   text-align: center;
   width: 55%;
   line-height: 1.5em;
+  margin:  0 auto;
+  padding: 3em;
+  border: 1px solid azure;
 }
