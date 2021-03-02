@@ -4,6 +4,12 @@ html {
   color: azure;
   font-size: 22px;
   opacity: .97;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  border: 0;
 }
 
 a {
@@ -62,6 +68,14 @@ h2 {
   letter-spacing: .2rem;
 }
 
+header {
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
 /*    Landing Section    */
 
 .landing {
@@ -74,6 +88,8 @@ h2 {
   background-repeat: no-repeat;
   justify-content: center;
   align-items: flex-end;
+  
 }
 
+/*    Footer Section    */
 
