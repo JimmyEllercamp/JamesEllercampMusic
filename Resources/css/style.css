@@ -98,3 +98,33 @@ header {
 footer {
   text-align: center;
 }
+
+/*    Bio Page    */
+
+.bio-main {
+  margin-top: 13%;
+  text-align: center;
+}
+
+.img-container {
+  width: 35%;
+  margin: 0 auto 10% auto;
+}
+
+.jimmy-guitar {
+  width: 100%;
+  border-radius: 50%;
+  border: 4px solid azure;
+}
+
+.bio {
+  width: 50%;
+  margin: 0 auto;
+  padding: 3%;
+  border: 1px solid azure;
+
+}
+
+.bio p {
+  line-height: 2;
+}
